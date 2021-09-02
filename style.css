@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: radnika, sans-serif;
+}
+.container {
+  background: url("https://images.unsplash.com/photo-1584283598336-3162a018c0b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80")
+    no-repeat center;
+  background-origin: border-box;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.box {
+  margin: 0 auto;
+  width: 410px;
+  min-width: 330px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  padding: 20px 15px;
+}
+.box h2 {
+  font-size: 19px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.box .social-icon {
+  position: relative;
+  text-align: right;
+  transform: translate(0, -75px);
+  color: #ffc312;
+  font-size: 3em;
+}
+form {
+  text-align: center;
+}
+.input-field input {
+  width: 85%;
+  margin: 10px auto;
+  padding: 8.5px 12px;
+  outline: none;
+  border: none;
+}
+.field-icon {
+  position: relative;
+  background: #ffc312;
+  width: 28px;
+  height: 32px;
+  font-size: 16px;
+  margin: -11px -5px;
+}
+.check-box {
+  text-align: left;
+  margin: 10px 13px;
+}
+.check-box span {
+  padding-left: 8px;
+  color: #fff;
+  font-size: 15px;
+}
+.btn {
+  float: right;
+  margin: 10px 10px 20px 0;
+}
+.btn button {
+  outline: none;
+  border: none;
+  padding: 6px 16px;
+  color: #000;
+  background: #ffc312;
+  font-size: 17px;
+  border-radius: 3px;
+}
+.btn button:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+.forget-password-field {
+  margin: 80px 0 20px 0;
+}
+.forget-password-field p {
+  color: #fff;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+.forget-password-field p a {
+  color: rgb(20, 20, 211);
+  text-decoration: none;
+}
+.forget-password-field p a:hover {
+  color: rgb(3, 3, 8);
+}
